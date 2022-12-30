@@ -32,4 +32,13 @@
         hh.style.strokeDashoffset = 440 - (440 * h) /12;
         mm.style.strokeDashoffset = 440 - (440 * m)/60;
         ss.style.strokeDashoffset = 440 - (440 * s)/60;
+
+        let hr_dot = document.querySelector(".hr_dot");
+        let min_dot = document.querySelector(".min_dot");
+        let sec_dot = document.querySelector(".sec_dot");
+
+        // 360 / 12 = 30
+        hr_dot.style.transform = `rotate(${h * 30}deg)`;
+        min_dot.style.transform = `rotate(${m * 6}deg)`;
+        sec_dot.style.transform = `rotate(${s* 6}deg)`;
     })
