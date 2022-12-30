@@ -20,9 +20,9 @@
         m = (m < 10) ? "0" + m : m;
         s  = ( s < 10) ? "0" + s : s;
 
-        hours.innerHTML = h;
-        minutes.innerHTML = m;
-        seconds.innerHTML = s;
+        hours.innerHTML = h +"<br><span>Hours</span>";
+        minutes.innerHTML = m +"<br><span>Minutes</span>";
+        seconds.innerHTML = s +"<br><span>Seconds</span>";
         ampm.innerHTML = am;
 
         let hh =document.getElementById("hh");

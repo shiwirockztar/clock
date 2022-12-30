@@ -57,6 +57,17 @@ body
   font-weight: 500;
   font-size: 1.5em;
 }
+#time div span
+{
+    position: absolute;
+  transform: translateX(-54%) translatey(-10px);
+  font-size: 0.35em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
 #time .ap{
   position: relative;
   font: 1em;
